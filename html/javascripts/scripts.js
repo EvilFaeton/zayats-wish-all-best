@@ -2,7 +2,8 @@
   $(document).ready(function() {
     return $(".logo").click(function() {
       $(".first").hide();
-      return $(".second").show();
+      $(".second").show();
+      return FB.XFBML.parse();
     });
   });
 
