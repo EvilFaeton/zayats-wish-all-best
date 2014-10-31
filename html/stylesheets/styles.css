@@ -1,5 +1,6 @@
 body {
   padding: 20px;
+  padding-top: 0px;
   font: 14px/26px sans-serif; }
 
 h1,
@@ -24,3 +25,25 @@ b {
 body {
   background-image: url(../images/back.png);
   background-position: repeat; }
+
+.clear {
+  clear: both; }
+
+.first {
+  padding-top: 150px;
+  height: 50px;
+  text-align: center; }
+  .first h1 {
+    text-align: center; }
+  .first .logo {
+    cursor: pointer; }
+
+.second {
+  display: none; }
+
+.blogo {
+  background-image: url(../images/logo.png);
+  background-size: cover;
+  width: 150px;
+  height: 35px;
+  float: right; }

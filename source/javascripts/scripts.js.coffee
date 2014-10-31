@@ -1,1 +1,4 @@
-console.log "Zayts!"
+$(document).ready ->
+  $(".logo").click ->
+    $(".first").hide()
+    $(".second").show()
