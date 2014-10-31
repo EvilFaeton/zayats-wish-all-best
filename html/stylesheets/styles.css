@@ -37,6 +37,8 @@ body {
     text-align: center; }
   .first .logo {
     cursor: pointer; }
+  .first .upup {
+    margin-top: -100px; }
 
 .second {
   display: none; }
@@ -47,3 +49,6 @@ body {
   width: 150px;
   height: 35px;
   float: right; }
+
+.share {
+  float: left; }
